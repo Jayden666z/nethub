@@ -1,0 +1,18 @@
+{
+  "name": "NetHub · 网络工具、VPS 与机场目录",
+  "short_name": "NetHub",
+  "description": "多平台代理客户端、服务端、订阅工具、规则配置与 VPS / 机场对比目录",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#0066cc",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

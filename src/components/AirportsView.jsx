@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import { ExternalLink, Plane, Search, X } from 'lucide-react';
 import { Avatar } from './Avatar.jsx';
+import { FaqSection } from './FaqSection.jsx';
+import { AIRPORTS_FAQ } from '../../shared/seo.js';
 
 const PAGE_SIZE = 36;
 
@@ -246,6 +248,7 @@ export function AirportsView({ items, loading, error, searchRef, onNavigate }) {
           )}
         </>
       )}
+      <FaqSection title="机场导航与套餐常见问题" items={AIRPORTS_FAQ} />
     </section>
   );
 }

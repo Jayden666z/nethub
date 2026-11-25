@@ -6,4 +6,15 @@ compatibility_date = "2026-01-01"
 directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
-run_worker_first = ["/api/*"]
+run_worker_first = [
+  "/api/*",
+  "/",
+  "/vps",
+  "/jichang",
+  "/apps/*",
+  "/servers/*",
+  "/subscription-tools/*",
+  "/rules/*",
+  "/vps/*",
+  "/jichang/*"
+]

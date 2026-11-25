@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import { Filter, Search, SlidersHorizontal, X } from 'lucide-react';
 import { Avatar } from './Avatar.jsx';
+import { FaqSection } from './FaqSection.jsx';
+import { APPS_FAQ } from '../../shared/seo.js';
 
 const TYPE_TABS = [
   { id: 'all', label: '全部' },
@@ -26,7 +28,10 @@ const PRICE_FILTERS = [
 const PAGE_SIZE = 36;
 
 export function AppsView({ apps, loading, error, syncedAt, searchRef, onNavigate }) {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(() => {
+    if (typeof window === 'undefined') return '';
+    return new URLSearchParams(window.location.search).get('q') || '';
+  });
   const [type, setType] = useState('all');
   const [platform, setPlatform] = useState('all');
   const [core, setCore] = useState('all');
@@ -427,6 +432,7 @@ export function AppsView({ apps, loading, error, syncedAt, searchRef, onNavigate
           </div>
         </div>
       )}
+      <FaqSection title="网络工具与客户端常见问题" items={APPS_FAQ} />
     </section>
   );
 }

@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ExternalLink, Search, Server, X } from 'lucide-react';
+import { FaqSection } from './FaqSection.jsx';
+import { VPS_FAQ } from '../../shared/seo.js';
 
 const PAGE_SIZE = 36;
 
@@ -300,6 +302,7 @@ export function VpsView({ items, providers, loading, error, searchRef, onNavigat
           )}
         </>
       )}
+      <FaqSection title="VPS 挑选与对比常见问题" items={VPS_FAQ} />
     </section>
   );
 }

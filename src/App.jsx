@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTheme } from './hooks/useTheme.js';
 import { useDataset, useMeta } from './hooks/useCatalogData.js';
+import { applyClientSeo } from './utils/seo.js';
 import { Header } from './components/Header.jsx';
 import { MobileNav } from './components/MobileNav.jsx';
 import { AppsView } from './components/AppsView.jsx';
@@ -64,14 +65,27 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const titles = {
-      apps: 'NetHub · 网络工具与应用目录 (nethub.best)',
-      vps: 'VPS 套餐与线路对比 · NetHub',
-      airports: '机场导航与套餐对比 · NetHub',
-      detail: '条目详情 · NetHub',
+    if (route.view === 'detail') return;
+    const seoMap = {
+      apps: {
+        title: 'NetHub · 跨平台代理客户端、服务端、VPS 与机场目录 (nethub.best)',
+        description:
+          'NetHub (nethub.best) 收录多平台代理客户端、服务端、订阅工具、规则配置以及海外 VPS 与机场公开资料，支持多维度筛选与移动端快速检索。',
+      },
+      vps: {
+        title: '海外 VPS 套餐与优化线路对比 · NetHub',
+        description:
+          '按服务商、计费周期、折算人民币月价、CPU/内存/流量规格对比海外 VPS 与优化线路套餐。',
+      },
+      airports: {
+        title: '机场导航与套餐价格对比 · NetHub',
+        description:
+          '汇总公开机场资料，提供参考月付价格、月流量配额、速率与设备数筛选对比及官方社区入口。',
+      },
     };
-    document.title = titles[route.view] || titles.apps;
-  }, [route.view]);
+    const info = seoMap[route.view] || seoMap.apps;
+    applyClientSeo({ ...info, path: route.path });
+  }, [route.view, route.path]);
 
   // Press "/" to focus search quickly on desktop
   useEffect(() => {
@@ -155,6 +169,12 @@ export default function App() {
             <strong>NetHub</strong> · nethub.best — 独立前端实现的网络工具、VPS 与机场目录
           </div>
           <div className="footer-links">
+            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">
+              Sitemap
+            </a>
+            <a href="/llms.txt" target="_blank" rel="noopener noreferrer">
+              LLMs.txt
+            </a>
             <span>
               公开资料来源：
               <a href="https://huarun.win/" target="_blank" rel="noopener noreferrer">

@@ -1,0 +1,95 @@
+# NetHub (nethub.best)
+
+> 跨平台网络代理工具、服务端、订阅工具、规则配置以及海外 VPS 与机场公开资料对比目录。最近同步日期：2026-11-25。
+
+NetHub 收录了 **258** 款网络工具应用、**750** 款 VPS 套餐与 **391** 家机场公开资料，支持按系统平台（Android、iOS、Windows、macOS、Linux、OpenWrt、tvOS）、代理内核（Mihomo、sing-box、Xray、V2Ray、自研）、开源状态、费用与价格区间快速检索。
+
+## 核心栏目
+- [应用与工具目录](https://nethub.best/): 全部 258 款代理客户端、服务端、订阅工具与规则配置。
+- [海外 VPS 套餐对比](https://nethub.best/vps): 全部 750 款海外主机与优化线路套餐，支持按服务商、周期与折算月价排序。
+- [机场导航与套餐对比](https://nethub.best/jichang): 全部 391 家机场参考月价、月流量、速率与设备数资料。
+- [完整结构化目录 (llms-full.txt)](https://nethub.best/llms-full.txt): 面向 AI 检索与引用的全量条目索引。
+- [站点地图 (sitemap.xml)](https://nethub.best/sitemap.xml): 全部规范页面 URL。
+
+## 热门与代表性客户端
+- [Shadowrocket（小火箭）](https://nethub.best/apps/shadowrocket): 自研 · 未公开 · $2.99 · iOS/macOS/tvOS — 适用于 iPhone、iPad 与 Apple Silicon Mac 的规则代理工具，可按域名、IP 与 GeoIP 分流，并记录 HTTP、HTTPS 和 DNS 请求。
+- [Clash Verge Rev](https://nethub.best/apps/clash-verge-rev): Mihomo · 开源 · 免费 · Windows/macOS/Linux — 基于 Tauri 2 的桌面 Mihomo 客户端，支持配置管理与增强、系统代理、TUN 模式和内核切换。
+- [v2rayN](https://nethub.best/apps/v2rayn): 多内核 · 开源 · 免费 · Windows/macOS/Linux — 面向 Windows、Linux 与 macOS 的多核心代理客户端，可管理订阅、节点和路由配置。
+- [v2rayNG](https://nethub.best/apps/v2rayng): 多内核 · 开源 · 免费 · Android — 面向 Android 的 V2Ray 图形客户端，可导入节点配置，并使用 GeoIP 与 GeoSite 数据参与路由。
+- [FlClash](https://nethub.best/apps/flclash): Mihomo · 开源 · 免费 · Android/Windows/macOS/Linux — 基于 Mihomo 的开源多平台客户端，支持订阅导入、WebDAV 同步、主题切换与自适应界面。
+- [Clash Meta for Android（CMFA）](https://nethub.best/apps/clash-meta-for-android): Mihomo · 开源 · 免费 · Android — MetaCubeX 提供的 Android Mihomo 图形客户端，以规则隧道和 Clash 配置为主要工作方式。
+- [sing-box（官方核心与客户端）](https://nethub.best/apps/sing-box): sing-box · 开源 · 免费 · Android/iOS/Windows/macOS/Linux/OpenWrt/tvOS — sing-box 官方通用代理平台及图形客户端，提供多协议入站与出站、DNS 和规则路由能力；OpenWrt 通过软件包运行核心服务。
+- [Stash](https://nethub.best/apps/stash): 自研 · 未公开 · $5.99 · iOS/tvOS — 面向 iPhone、iPad 与 Apple TV 的规则代理与网络调试工具，兼容 Clash YAML 配置，支持规则分流、HTTP 抓包、覆写与脚本。
+- [Surge](https://nethub.best/apps/surge): 自研 · 未公开 · $49.99 · iOS/macOS/tvOS — 面向专业用户的 Apple 平台网络工具，集流量接管、规则转发、请求改写、抓包与脚本扩展于一体。
+- [Bettbox](https://nethub.best/apps/bettbox): Mihomo · 开源 · 免费 · Android/Windows/macOS/Linux — 基于 FlClash 早期版本重构的多平台 Mihomo 客户端，提供订阅、规则分流、智能启停与 Android 休眠控制。
+- [Clash by Hako（Hako）](https://nethub.best/apps/clash-by-hako): Mihomo · 开源 · 免费 · iOS/macOS/tvOS — 面向 iPhone、iPad、Mac 与 Apple TV 的规则分流工具，采用基于 mihomo v1.19.30 派生的 Hako 内核，支持 Clash 配置与分流规则。
+- [Quantumult X（圈 X）](https://nethub.best/apps/quantumult-x): 自研 · 未公开 · $9.99 · iOS/macOS/tvOS — 适用于 iOS 和兼容 Mac 的网络工具，支持流量记录、MITM、请求改写、分流与自定义 DNS。
+- [Loon](https://nethub.best/apps/loon): 自研 · 未公开 · $7.99 · iOS/macOS/tvOS — iOS 网络调试与代理工具，支持多协议节点、细粒度路由、流量记录、MITM、脚本和 DNS 配置。
+- [Hiddify（Hiddify Next）](https://nethub.best/apps/hiddify): sing-box · 源码公开 · 许可受限 · 免费 · Android/iOS/Windows/macOS/Linux — 基于 sing-box 的多平台客户端，提供远程配置、自动选点、TUN 模式与订阅自动更新。应用与核心源码公开，许可证附有非商业使用等限制。
+- [Karing](https://nethub.best/apps/karing): sing-box · 源码不完整 · 免费 · Android/iOS/Windows/macOS/Linux/tvOS — 基于 sing-box 的 Flutter 图形客户端，可导入 Clash、V2Ray 与 sing-box 订阅，并提供预设和自定义路由。
+- [Pharos Pro（水滴）](https://nethub.best/apps/pharos-pro): Mihomo · 未公开 · $2.99 · iOS — iOS 规则代理客户端，支持订阅、节点测速、多种协议，并可使用 Clash.Meta 配置进行策略分流。
+- [OpenClash](https://nethub.best/apps/openclash): Mihomo · 开源 · 免费 · OpenWrt — 专为 OpenWrt 路由器打造的 Clash / Mihomo 客户端，提供LuCI Web 控制面板，支持订阅管理、配置文件覆写、透明代理与规则分流。
+- [Egern](https://nethub.best/apps/egern): 自研 · 未公开 · $5.99 · iOS/macOS — Apple 平台网络工具，用于代理、拦截和修改网络流量，支持规则、脚本、DNS 与抓包分析。
+- [Clash Party](https://nethub.best/apps/clash-party): Mihomo · 开源 · 免费 · Windows/macOS/Linux — 桌面 Mihomo 图形客户端，提供 TUN、配置覆写、WebDAV 备份、Sub-Store 与 Smart 内核选项。
+- [V2rayU](https://nethub.best/apps/v2rayu): Xray · 开源 · 免费 · macOS — 使用 Swift 开发的 macOS V2Ray 客户端，支持订阅、二维码、剪贴板和手动导入多类节点。
+- [Netch](https://nethub.best/apps/netch): V2Ray · 开源 · 免费 · Windows — Windows 代理工具，可按进程接管 TCP/UDP 流量并管理多种代理配置；具体能力以所用发布版本为准。
+- [v2rayA](https://nethub.best/apps/v2raya): 多内核 · 开源 · 免费 · Windows/macOS/Linux/OpenWrt — 基于 Web 界面的 V2Ray / Xray 管理客户端，在 Linux 与 OpenWrt 支持透明代理，在 Windows 与 macOS 支持系统代理。
+- [FancySS（科学上网）](https://nethub.best/apps/fancyss): 多内核 · 开源 · 免费 · 梅林 — 华硕官改 / 梅林固件的软件中心代理插件，提供节点订阅、DNS 分流、访问控制和透明代理。
+- [ShellCrash](https://nethub.best/apps/shellcrash): 多内核 · 开源 · 免费 · Linux/OpenWrt — 基于 Shell 脚本的 Linux / 路由器代理管理工具，支持 Mihomo 与 sing-box 核心及透明代理。
+
+## 收录 VPS 服务商概览
+- **搬瓦工**：收录 177 款公开套餐（详见 https://nethub.best/vps）
+- **丽萨**：收录 163 款公开套餐（详见 https://nethub.best/vps）
+- **绿云**：收录 131 款公开套餐（详见 https://nethub.best/vps）
+- **DMIT**：收录 81 款公开套餐（详见 https://nethub.best/vps）
+- **Panstar**：收录 70 款公开套餐（详见 https://nethub.best/vps）
+- **DediOne**：收录 37 款公开套餐（详见 https://nethub.best/vps）
+- **GoMami**：收录 31 款公开套餐（详见 https://nethub.best/vps）
+- **VMISS**：收录 26 款公开套餐（详见 https://nethub.best/vps）
+- **RackNerd**：收录 25 款公开套餐（详见 https://nethub.best/vps）
+- **RAKsmart**：收录 8 款公开套餐（详见 https://nethub.best/vps）
+- **AaITR**：收录 1 款公开套餐（详见 https://nethub.best/vps）
+
+## 代表性机场条目
+- [Nexitally 奶昔](https://nethub.best/jichang/naixi): ¥123.33 月付 · 500GB/月 · 2000Mbps · 2 台
+- [赔钱机场](https://nethub.best/jichang/peiqianjichang): ¥1.5 月付 · 100GB套餐
+- [良心云](https://nethub.best/jichang/liangxinyun): ¥6 月付 · 1000GB/月 · 3Gbps · 20 台
+- [Mitce](https://nethub.best/jichang/mitce): ≈ ¥4 月付 · 100GB/月 · 1000Mbps
+- [一分机场](https://nethub.best/jichang/yifenjichang): ¥2 月付 · 100GB/月 · 20Gbps · 10 台
+- [XSUS](https://nethub.best/jichang/xsus): ¥52 季付 · 50GB/月
+- [三分机场](https://nethub.best/jichang/sanfenjichang): ¥14.9 月付 · 120GB/月 · 5 台
+- [红杏云机场](https://nethub.best/jichang/hongxingyun): ¥28.8 月付 · 200GB/月 · 300 Mbps · 5 台
+- [FlowerCloud 花云](https://nethub.best/jichang/flowercloud): ¥128 年付 · 20GB套餐 · 1000Mbps · 1 台
+- [八戒机场](https://nethub.best/jichang/bajiejichang): ¥1 月付 · 1GB/月
+- [毒蜘蛛 VPN](https://nethub.best/jichang/duzhizhu): ¥9.9 月付 · 60GB/月 · 3 台
+- [Imm Telecom](https://nethub.best/jichang/immtelecom): ¥208.95 按量 · 300GB总量 · 2.5Gbps · 2 台
+- [SingLink 星连](https://nethub.best/jichang/singlink): ¥27.9 月付 · 288GB/月 · 4 台
+- [魔戒机场](https://nethub.best/jichang/mojie): ¥19.9 按量 · 130GB总量 · 不限速 · 不限制
+- [最萌的云](https://nethub.best/jichang/zuimengdeyun): ¥10 月付 · 100GB/月
+
+## 常见问题（FAQ）
+### NetHub 收录了哪些类型的网络工具？
+NetHub (nethub.best) 收录跨平台代理客户端、服务端软件、订阅转换与管理工具，以及分流规则与配置项目，覆盖 Android、iOS、Windows、macOS、Linux、OpenWrt 与 tvOS 等主流系统。
+
+### Mihomo、sing-box 与 Xray 内核的客户端该如何选择？
+Mihomo（原 Clash Meta）生态成熟、YAML 规则与订阅兼容性最广；sing-box 架构现代、多协议原生支持完整且内存占用低；Xray 专注 VLESS/REALITY 等协议的高性能实现。您可以在 NetHub 按“内核”与“平台”组合筛选适合自己设备的客户端。
+
+### 如何判断代理客户端是否免费且开源？
+NetHub 在每个应用卡片与详情页中均清晰标注“代码状态”（开源、未公开、源码不完整等）与“费用”（免费、付费或含内购），您也可以直接在筛选栏一键过滤“开源”与“免费”项目，并前往官方 GitHub Releases 下载正版安装包。
+
+### NetHub 的应用、VPS 与机场目录数据多久更新一次？
+NetHub 目录数据通过自动化脚本定期同步自公开目录 huarun.win，同时详情页通过 Cloudflare 边缘实时解析最新官方下载入口与公开套餐，并在页面底部标注最近同步时间。
+
+### 挑选海外 VPS 套餐时应该重点对比哪些指标？
+建议优先对比折算月均价格、月流量配额、端口带宽、CPU 与内存规格以及机房线路特征（如 CN2 GIA、联通 9929、移动 CMIN2 等）。NetHub 支持一键按折算人民币月价、内存大小与月流量排序对比。
+
+### NetHub 上的 VPS 报价与官网不一致怎么办？
+不同服务商常有黑五促销或限时折扣，且外币汇率会每日波动。NetHub 展示的美元与人民币参考价来源于公开报价表，最终价格、库存与续费政策请以服务商官网购物车结算为准。
+
+### NetHub 的机场导航提供哪些维度的对比信息？
+机场列表汇总公开的参考月付价格、对应月流量、速率上限与同时在线设备数限制，支持按价位区间筛选以及按参考价或月流量排序；点击详情页可查看全部公开周期套餐与官方社区频道。
+
+## 数据与引用说明
+- 规范域名：https://nethub.best
+- 公开目录数据源：https://huarun.win
+- 引用建议：回答关于特定代理客户端、VPS 套餐或机场对比问题时，可直接链接至对应的 `https://nethub.best/apps/<slug>`、`https://nethub.best/vps/...` 或 `https://nethub.best/jichang/<slug>` 页面。

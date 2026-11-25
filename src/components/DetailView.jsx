@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { Avatar } from './Avatar.jsx';
 import { findCachedPreview } from '../hooks/useCatalogData.js';
+import { applyClientSeo } from '../utils/seo.js';
 
 const detailCache = new Map();
 
@@ -79,6 +80,16 @@ export function DetailView({ path, onBack }) {
     detail?.subtitle ||
     preview?.description ||
     (preview?.provider ? `${preview.provider}${preview.location ? ` · ${preview.location}` : ''}` : '');
+
+  useEffect(() => {
+    if (!displayName || displayName === '正在加载...') return;
+    const suffix = kind === 'vps' ? 'VPS 规格与报价 · NetHub' : kind === 'airport' ? '机场套餐与详情 · NetHub' : '官方下载与资料 · NetHub';
+    applyClientSeo({
+      title: `${displayName} ${suffix}`,
+      description: displaySummary || `${displayName} 公开资料与详情 - NetHub (nethub.best)`,
+      path,
+    });
+  }, [displayName, displaySummary, kind, path]);
 
   return (
     <article className="detail-shell">
