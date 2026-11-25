@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>NetHub · 网络工具、VPS 与机场目录</title>
+    <meta
+      name="description"
+      content="NetHub (nethub.best) 汇聚多平台代理客户端、服务端、订阅工具、规则配置以及 VPS 与机场套餐资料，提供清晰筛选与移动端友好体验。"
+    />
+    <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <link rel="canonical" href="https://nethub.best/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="NetHub" />
+    <meta property="og:title" content="NetHub · 网络工具、VPS 与机场目录" />
+    <meta
+      property="og:description"
+      content="一站式检索多平台代理客户端、服务端、规则配置、VPS 与机场资料。"
+    />
+    <meta property="og:url" content="https://nethub.best/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('nethub-theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved === 'dark' || saved === 'light' ? saved : (prefersDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

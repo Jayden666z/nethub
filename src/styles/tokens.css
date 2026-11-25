@@ -1,0 +1,77 @@
+:root {
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+  /* Light palette: warm alabaster canvas + elevated porcelain cards */
+  --bg-canvas: hsl(220, 22%, 97%);
+  --bg-surface: hsl(0, 0%, 100%);
+  --bg-subtle: hsl(220, 18%, 94%);
+  --bg-hover: hsl(220, 20%, 91.5%);
+  --bg-glass: hsla(220, 25%, 98%, 0.82);
+
+  --text-primary: hsl(222, 42%, 11%);
+  --text-secondary: hsl(216, 18%, 35%);
+  --text-muted: hsl(216, 14%, 52%);
+
+  --accent: hsl(211, 96%, 43%);
+  --accent-hover: hsl(211, 96%, 37%);
+  --accent-soft: hsla(211, 96%, 45%, 0.1);
+  --accent-text: hsl(211, 96%, 38%);
+
+  --success: hsl(156, 70%, 31%);
+  --success-soft: hsla(156, 70%, 36%, 0.1);
+
+  --warning: hsl(34, 88%, 36%);
+  --warning-soft: hsla(36, 92%, 48%, 0.12);
+
+  --border-subtle: hsla(222, 32%, 14%, 0.08);
+  --border-strong: hsla(222, 32%, 14%, 0.16);
+
+  --shadow-xs: 0 1px 2px hsla(222, 40%, 12%, 0.04);
+  --shadow-sm: 0 1px 3px hsla(222, 40%, 12%, 0.05), 0 4px 12px hsla(222, 40%, 12%, 0.04);
+  --shadow-md: 0 6px 20px hsla(222, 40%, 12%, 0.08), 0 2px 6px hsla(222, 40%, 12%, 0.04);
+  --shadow-lg: 0 18px 42px hsla(222, 40%, 12%, 0.14);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  --header-height: 60px;
+  --mobile-nav-height: 62px;
+  --container-max: 1200px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme='dark'] {
+  --bg-canvas: hsl(220, 15%, 7.5%);
+  --bg-surface: hsl(220, 14%, 11.5%);
+  --bg-subtle: hsl(220, 13%, 16%);
+  --bg-hover: hsl(220, 13%, 20%);
+  --bg-glass: hsla(220, 15%, 9%, 0.84);
+
+  --text-primary: hsl(210, 22%, 95%);
+  --text-secondary: hsl(215, 14%, 70%);
+  --text-muted: hsl(215, 11%, 52%);
+
+  --accent: hsl(210, 96%, 60%);
+  --accent-hover: hsl(210, 96%, 68%);
+  --accent-soft: hsla(210, 96%, 60%, 0.15);
+  --accent-text: hsl(210, 96%, 68%);
+
+  --success: hsl(156, 65%, 52%);
+  --success-soft: hsla(156, 65%, 52%, 0.14);
+
+  --warning: hsl(38, 92%, 62%);
+  --warning-soft: hsla(38, 92%, 58%, 0.15);
+
+  --border-subtle: hsla(210, 30%, 96%, 0.085);
+  --border-strong: hsla(210, 30%, 96%, 0.16);
+
+  --shadow-xs: 0 1px 2px hsla(0, 0%, 0%, 0.25);
+  --shadow-sm: 0 2px 8px hsla(0, 0%, 0%, 0.28);
+  --shadow-md: 0 8px 26px hsla(0, 0%, 0%, 0.4);
+  --shadow-lg: 0 20px 48px hsla(0, 0%, 0%, 0.55);
+}

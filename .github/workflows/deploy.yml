@@ -1,0 +1,43 @@
+name: Sync Data & Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Daily sync at 04:00 UTC (12:00 CST)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync latest public catalog data
+        run: npm run sync
+
+      - name: Build production bundle
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=nethub

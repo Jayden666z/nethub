@@ -1,0 +1,462 @@
+{
+  "site": "nethub.best",
+  "source": "https://huarun.win",
+  "syncedAt": "2026-11-25T02:28:02.659Z",
+  "counts": {
+    "apps": 258,
+    "vps": 750,
+    "airports": 391
+  },
+  "facets": {
+    "appTypes": {
+      "client": 195,
+      "server": 27,
+      "rule-config": 31,
+      "subscription-tool": 3,
+      "other": 2
+    },
+    "platforms": [
+      {
+        "name": "macOS",
+        "count": 82
+      },
+      {
+        "name": "Linux",
+        "count": 79
+      },
+      {
+        "name": "Windows",
+        "count": 70
+      },
+      {
+        "name": "Android",
+        "count": 69
+      },
+      {
+        "name": "iOS",
+        "count": 60
+      },
+      {
+        "name": "OpenWrt",
+        "count": 22
+      },
+      {
+        "name": "Mihomo",
+        "count": 20
+      },
+      {
+        "name": "tvOS",
+        "count": 18
+      },
+      {
+        "name": "Surge",
+        "count": 10
+      },
+      {
+        "name": "sing-box",
+        "count": 10
+      },
+      {
+        "name": "Quantumult X",
+        "count": 9
+      },
+      {
+        "name": "鸿蒙",
+        "count": 9
+      },
+      {
+        "name": "Shadowrocket",
+        "count": 8
+      },
+      {
+        "name": "Loon",
+        "count": 8
+      },
+      {
+        "name": "Clash",
+        "count": 4
+      },
+      {
+        "name": "V2Ray",
+        "count": 4
+      },
+      {
+        "name": "Xray",
+        "count": 4
+      },
+      {
+        "name": "梅林",
+        "count": 3
+      },
+      {
+        "name": "Clash Premium",
+        "count": 3
+      },
+      {
+        "name": "OpenClash",
+        "count": 3
+      },
+      {
+        "name": "Egern",
+        "count": 3
+      },
+      {
+        "name": "Surfboard",
+        "count": 3
+      },
+      {
+        "name": "Stash",
+        "count": 3
+      },
+      {
+        "name": "Cloudflare Workers",
+        "count": 2
+      },
+      {
+        "name": "Cloudflare Pag",
+        "count": 2
+      },
+      {
+        "name": "AdGuard",
+        "count": 2
+      },
+      {
+        "name": "dnsmasq",
+        "count": 2
+      },
+      {
+        "name": "Clash Meta",
+        "count": 2
+      },
+      {
+        "name": "Clash Verge Rev",
+        "count": 2
+      },
+      {
+        "name": "Hysteria",
+        "count": 1
+      },
+      {
+        "name": "Trojan-Go",
+        "count": 1
+      },
+      {
+        "name": "AdGuard Home",
+        "count": 1
+      },
+      {
+        "name": "SmartDNS",
+        "count": 1
+      },
+      {
+        "name": "Node.js",
+        "count": 1
+      },
+      {
+        "name": "客户端脚本",
+        "count": 1
+      },
+      {
+        "name": "Ubuntu 22.04",
+        "count": 1
+      },
+      {
+        "name": "ShadowsocksR",
+        "count": 1
+      },
+      {
+        "name": "Nginx",
+        "count": 1
+      },
+      {
+        "name": "macOS（源码运行）",
+        "count": 1
+      },
+      {
+        "name": "Docker",
+        "count": 1
+      },
+      {
+        "name": "Linux（systemd）",
+        "count": 1
+      },
+      {
+        "name": "Bettbox",
+        "count": 1
+      },
+      {
+        "name": "RouterOS",
+        "count": 1
+      },
+      {
+        "name": "Sub-Store",
+        "count": 1
+      },
+      {
+        "name": "Clash Party",
+        "count": 1
+      },
+      {
+        "name": "Sparkle",
+        "count": 1
+      },
+      {
+        "name": "Clash Nyanpasu",
+        "count": 1
+      },
+      {
+        "name": "amd64 / arm64 ",
+        "count": 1
+      },
+      {
+        "name": "FlClash",
+        "count": 1
+      },
+      {
+        "name": "节点：Ubuntu 22.0",
+        "count": 1
+      },
+      {
+        "name": "Windows（amd64）",
+        "count": 1
+      },
+      {
+        "name": "OpenWrt（procd）",
+        "count": 1
+      }
+    ],
+    "cores": [
+      {
+        "name": "Mihomo",
+        "count": 56
+      },
+      {
+        "name": "sing-box",
+        "count": 41
+      },
+      {
+        "name": "自研",
+        "count": 37
+      },
+      {
+        "name": "多内核",
+        "count": 30
+      },
+      {
+        "name": "Xray",
+        "count": 22
+      },
+      {
+        "name": "其他",
+        "count": 17
+      },
+      {
+        "name": "meow-rs",
+        "count": 4
+      },
+      {
+        "name": "Xray / sing-box",
+        "count": 3
+      },
+      {
+        "name": "V2Ray",
+        "count": 2
+      },
+      {
+        "name": "Cloudflare Workers",
+        "count": 2
+      },
+      {
+        "name": "sing-box / Xray",
+        "count": 2
+      },
+      {
+        "name": "outline-ss-server",
+        "count": 1
+      },
+      {
+        "name": "V2Ray / Xray / Hysteria 2 / shadowsocks-rust / shadowsocks-libev",
+        "count": 1
+      },
+      {
+        "name": "Hysteria 2",
+        "count": 1
+      },
+      {
+        "name": "Xray / Hysteria 2",
+        "count": 1
+      },
+      {
+        "name": "clash-rs",
+        "count": 1
+      }
+    ],
+    "sources": [
+      {
+        "name": "开源",
+        "count": 128
+      },
+      {
+        "name": "未公开",
+        "count": 57
+      },
+      {
+        "name": "管理面板",
+        "count": 14
+      },
+      {
+        "name": "GPL-3.0",
+        "count": 8
+      },
+      {
+        "name": "部署脚本",
+        "count": 8
+      },
+      {
+        "name": "MIT",
+        "count": 8
+      },
+      {
+        "name": "源码不完整",
+        "count": 7
+      },
+      {
+        "name": "服务端与管理 API",
+        "count": 3
+      },
+      {
+        "name": "CC BY-SA 4.0",
+        "count": 3
+      },
+      {
+        "name": "源码公开 · 许可受限",
+        "count": 2
+      },
+      {
+        "name": "部署工具箱",
+        "count": 2
+      },
+      {
+        "name": "GPL-3.0；另有使用声明",
+        "count": 2
+      },
+      {
+        "name": "源码不完整 · 许可受限",
+        "count": 2
+      },
+      {
+        "name": "MIT（README 声明）",
+        "count": 2
+      },
+      {
+        "name": "GPL-3.0；上游数据各自许可",
+        "count": 2
+      },
+      {
+        "name": "GPL-2.0；另有使用声明",
+        "count": 1
+      },
+      {
+        "name": "LGPL-2.1",
+        "count": 1
+      },
+      {
+        "name": "AGPL-3.0",
+        "count": 1
+      },
+      {
+        "name": "CC BY-SA 4.0 / GPL-3.0",
+        "count": 1
+      },
+      {
+        "name": "未公开 · 许可受限",
+        "count": 1
+      },
+      {
+        "name": "WTFPL-2.0",
+        "count": 1
+      },
+      {
+        "name": "未声明",
+        "count": 1
+      },
+      {
+        "name": "CC BY-NC-SA 4.0；另有使用声明",
+        "count": 1
+      },
+      {
+        "name": "AGPL-3.0；部分数据 CC BY-SA 2.0",
+        "count": 1
+      },
+      {
+        "name": "GPL-3.0-or-later",
+        "count": 1
+      }
+    ],
+    "vpsProviders": [
+      {
+        "name": "搬瓦工",
+        "count": 177
+      },
+      {
+        "name": "丽萨",
+        "count": 163
+      },
+      {
+        "name": "绿云",
+        "count": 131
+      },
+      {
+        "name": "DMIT",
+        "count": 81
+      },
+      {
+        "name": "Panstar",
+        "count": 70
+      },
+      {
+        "name": "DediOne",
+        "count": 37
+      },
+      {
+        "name": "GoMami",
+        "count": 31
+      },
+      {
+        "name": "VMISS",
+        "count": 26
+      },
+      {
+        "name": "RackNerd",
+        "count": 25
+      },
+      {
+        "name": "RAKsmart",
+        "count": 8
+      },
+      {
+        "name": "AaITR",
+        "count": 1
+      }
+    ],
+    "vpsPeriods": [
+      {
+        "name": "月",
+        "count": 421
+      },
+      {
+        "name": "年",
+        "count": 323
+      },
+      {
+        "name": "3 个月",
+        "count": 4
+      },
+      {
+        "name": "6 个月",
+        "count": 2
+      }
+    ],
+    "airportCount": 391
+  }
+}
